@@ -1,0 +1,98 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html {
+	    font-family: 'Noto Sans', sans-serif;
+	font-display: swap;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+/* Theme */
+:root {
+	--background: #181D27;
+	--text: rgb(238, 237, 240);
+	--accent: rgb(240, 240, 0);
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+
+	background-color: var(--background);
+	color: var(--text);
+}
+
+abbr {
+	border: 1px dashed blue;
+	padding: 0 40px;
+
+	font-size: 15vh;
+	color: var(--text);
+}
+
+input {
+	margin-top: 5vh;
+	width: 50vw;
+	padding: 1vh;
+	text-align: center;
+	font-size: 5vh;
+	color: var(--accent);
+	background-color: var(--background);
+	border: 1px dashed darkgoldenrod;
+}
+
+input.correct { 
+	background-color: green;
+}
+
+input.wrong { 
+	border: 4px solid red;
+}
+
+input:focus {
+	outline-color: var(--accent);
+  }

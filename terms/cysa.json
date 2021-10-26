@@ -1,0 +1,501 @@
+[{
+        "abbr": "ACL",
+        "long": "Access Control List"
+    },
+    {
+        "abbr": "AES",
+        "long": "Advanced Encryption Standard"
+    },
+    {
+        "abbr": "API",
+        "long": "Application Programming Interface"
+    },
+    {
+        "abbr": "ARP",
+        "long": "Address Resolution Protocol"
+    },
+    {
+        "abbr": "APT",
+        "long": "Advanced Persistent Threat"
+    },
+    {
+        "abbr": "ATT&CK",
+        "long": "Adversarial Tactics, Techniques and Common Knowledge"
+    },
+    {
+        "abbr": "AUP",
+        "long": "Acceptable Use Policy"
+    },
+    {
+        "abbr": "BEC",
+        "long": "Business Email Compromise"
+    },
+    {
+        "abbr": "BYOD",
+        "long": "Bring Your Own Device"
+    },
+    {
+        "abbr": "CA",
+        "long": "Certificate Authority"
+    },
+    {
+        "abbr": "CAN",
+        "long": "Controller Area Network"
+    },
+    {
+        "abbr": "CASB",
+        "long": "Cloud Access Security Broker"
+    },
+    {
+        "abbr": "CI",
+        "long": "CD Continuous Integration/Continuous Delivery"
+    },
+    {
+        "abbr": "CIS",
+        "long": "Center for Internet Security"
+    },
+    {
+        "abbr": "COBIT",
+        "long": "Control Objectives for Information and Related Technology"
+    },
+    {
+        "abbr": "CPU",
+        "long": "Central Processing Unit"
+    },
+    {
+        "abbr": "CRM",
+        "long": "Customer Relations Management"
+    },
+    {
+        "abbr": "CVSS",
+        "long": "Common Vulnerability Scoring System"
+    },
+    {
+        "abbr": "DDoS",
+        "long": "Distributed Denial of Service"
+    },
+    {
+        "abbr": "DGA",
+        "long": "Domain Generation Algorithm"
+    },
+    {
+        "abbr": "DHCP",
+        "long": "Dynamic Host Configuration Protocol"
+    },
+    {
+        "abbr": "DKIM",
+        "long": "Domain Keys Identified Mail"
+    },
+    {
+        "abbr": "DLP",
+        "long": "Data Loss Prevention"
+    },
+    {
+        "abbr": "DMARC",
+        "long": "Domain-based Message Authentication, Reporting, and Conformance"
+    },
+    {
+        "abbr": "DMZ",
+        "long": "Demilitarized Zone"
+    },
+    {
+        "abbr": "DNS",
+        "long": "Domain Name System"
+    },
+    {
+        "abbr": "DOM",
+        "long": "Document Object Model"
+    },
+    {
+        "abbr": "DRM",
+        "long": "Digital Rights Management"
+    },
+    {
+        "abbr": "EDR",
+        "long": "Endpoint Detection and Response"
+    },
+    {
+        "abbr": "ELK",
+        "long": "Elasticsearch, Logstash, Kibana"
+    },
+    {
+        "abbr": "ERP",
+        "long": "Enterprise Resource Planning"
+    },
+    {
+        "abbr": "FaaS",
+        "long": "Function as a Service"
+    },
+    {
+        "abbr": "FPGA",
+        "long": "Field-programmable Gate Array"
+    },
+    {
+        "abbr": "FTK",
+        "long": "Forensic Toolkit"
+    },
+    {
+        "abbr": "FTP",
+        "long": "File Transfer Protocol"
+    },
+    {
+        "abbr": "HIDS",
+        "long": "Host Intrusion Detection System"
+    },
+    {
+        "abbr": "HIPS",
+        "long": "Host-based Intrusion Prevention System"
+    },
+    {
+        "abbr": "HSM",
+        "long": "Hardware Security Module"
+    },
+    {
+        "abbr": "IaaS",
+        "long": "Infrastructure as a Service"
+    },
+    {
+        "abbr": "IaC",
+        "long": "Infrastructure as Code"
+    },
+    {
+        "abbr": "IDS",
+        "long": "Intrusion Detection System"
+    },
+    {
+        "abbr": "IMAP",
+        "long": "Internet Message Access Protocol"
+    },
+    {
+        "abbr": "IoC",
+        "long": "Indicator of Compromise"
+    },
+    {
+        "abbr": "IoT",
+        "long": "Internet of Things"
+    },
+    {
+        "abbr": "IP",
+        "long": "Internet Protocol"
+    },
+    {
+        "abbr": "IPS",
+        "long": "Intrusion Prevention System"
+    },
+    {
+        "abbr": "ISAC",
+        "long": "Information Sharing and Analysis Center"
+    },
+    {
+        "abbr": "ISO",
+        "long": "International Organization for Standardization"
+    },
+    {
+        "abbr": "ITIL",
+        "long": "Information Technology Infrastructure Library"
+    },
+    {
+        "abbr": "LAN",
+        "long": "Local Area Network"
+    },
+    {
+        "abbr": "LDAP",
+        "long": "Lightweight Directory Access Protocol"
+    },
+    {
+        "abbr": "MaaS",
+        "long": "Monitoring as a Service"
+    },
+    {
+        "abbr": "MAC",
+        "long": "Mandatory Access Control"
+    },
+    {
+        "abbr": "MD5",
+        "long": "Message Digest 5"
+    },
+    {
+        "abbr": "MDM",
+        "long": "Mobile Device Management"
+    },
+    {
+        "abbr": "MFA",
+        "long": "Multifactor Authentication"
+    },
+    {
+        "abbr": "MOA",
+        "long": "Memorandum of Agreement"
+    },
+    {
+        "abbr": "MOU",
+        "long": "Memorandum of Understanding"
+    },
+    {
+        "abbr": "MRTG",
+        "long": "Multi Router Traffic Grapher"
+    },
+    {
+        "abbr": "NAC",
+        "long": "Network Access Control"
+    },
+    {
+        "abbr": "NAT",
+        "long": "Network Address Translation"
+    },
+    {
+        "abbr": "NDA",
+        "long": "Non-disclosure Agreement"
+    },
+    {
+        "abbr": "NIC",
+        "long": "Network Interface Card"
+    },
+    {
+        "abbr": "NIDS",
+        "long": "Network Intrusion Detection Systems"
+    },
+    {
+        "abbr": "NIST",
+        "long": "National Institute of Standards and Technology"
+    },
+    {
+        "abbr": "OEM",
+        "long": "Original Equipment Manufacturer"
+    },
+    {
+        "abbr": "OSSIM",
+        "long": "Open Source Security Information Management"
+    },
+    {
+        "abbr": "OWASP",
+        "long": "Open Web Application Security Project"
+    },
+    {
+        "abbr": "PaaS",
+        "long": "Platform as a Service"
+    },
+    {
+        "abbr": "PAM",
+        "long": "Pluggable Authentication Module"
+    },
+    {
+        "abbr": "PCAP",
+        "long": "Packet Capture"
+    },
+    {
+        "abbr": "PCI",
+        "long": "Payment Card Industry"
+    },
+    {
+        "abbr": "PHI",
+        "long": "Personal Health Information"
+    },
+    {
+        "abbr": "PID",
+        "long": "Process Identification Number"
+    },
+    {
+        "abbr": "PII",
+        "long": "Personally Identifiable Information"
+    },
+    {
+        "abbr": "PKI",
+        "long": "Public Key Infrastructure"
+    },
+    {
+        "abbr": "RADIUS",
+        "long": "Remote Authentication Dial-in User Service"
+    },
+    {
+        "abbr": "RDP",
+        "long": "Remote Desktop Protocol"
+    },
+    {
+        "abbr": "REST",
+        "long": "Representational State Transfer"
+    },
+    {
+        "abbr": "RTOS",
+        "long": "Real-time Operating System"
+    },
+    {
+        "abbr": "SaaS",
+        "long": "Software as a Service"
+    },
+    {
+        "abbr": "SAML",
+        "long": "Security Assertions Markup Language"
+    },
+    {
+        "abbr": "SCADA",
+        "long": "Supervisory Control and Data Acquisition"
+    },
+    {
+        "abbr": "SCAP",
+        "long": "Security Content Automation Protocol"
+    },
+    {
+        "abbr": "SDLC",
+        "long": "Software Development Life Cycle"
+    },
+    {
+        "abbr": "SFTP",
+        "long": "SSH File Transfer Protocol"
+    },
+    {
+        "abbr": "SHA",
+        "long": "Secure Hash Algorithm"
+    },
+    {
+        "abbr": "SIEM",
+        "long": "Security Information and Event Management"
+    },
+    {
+        "abbr": "SLA",
+        "long": "Service Level Agreement"
+    },
+    {
+        "abbr": "SMB",
+        "long": "Server Message Block"
+    },
+    {
+        "abbr": "SOAP",
+        "long": "Simple Object Access Protocol"
+    },
+    {
+        "abbr": "SOAR",
+        "long": "Security Orchestration, Automation, and Response"
+    },
+    {
+        "abbr": "SOC",
+        "long": "Security Operations Center"
+    },
+    {
+        "abbr": "SoC",
+        "long": "System on Chip"
+    },
+    {
+        "abbr": "SPF",
+        "long": "Sender Policy Framework"
+    },
+    {
+        "abbr": "SPI",
+        "long": "Sensitive Personal Information"
+    },
+    {
+        "abbr": "SQL",
+        "long": "Structured Query Language"
+    },
+    {
+        "abbr": "SSH",
+        "long": "Secure Shell"
+    },
+    {
+        "abbr": "SSHD",
+        "long": "Solid-state Hybrid Drive"
+    },
+    {
+        "abbr": "SSID",
+        "long": "Service Set Identifier"
+    },
+    {
+        "abbr": "SSL",
+        "long": "Secure Sockets Layer"
+    },
+    {
+        "abbr": "SSO",
+        "long": "Single Sign-on"
+    },
+    {
+        "abbr": "STIX",
+        "long": "Structured Threat Information eXpression"
+    },
+    {
+        "abbr": "TACACS+",
+        "long": "Terminal Access Controller Access, Control System Plus"
+    },
+    {
+        "abbr": "TAXII",
+        "long": "Trusted Automated eXchange of Intelligence Information"
+    },
+    {
+        "abbr": "TCP",
+        "long": "Transmission Control Protocol"
+    },
+    {
+        "abbr": "TFTP",
+        "long": "Trivial File Transfer Protocol"
+    },
+    {
+        "abbr": "TLS",
+        "long": "Transport Layer Security"
+    },
+    {
+        "abbr": "TPM",
+        "long": "Trusted Platform Module"
+    },
+    {
+        "abbr": "UDP",
+        "long": "User Datagram Protocol"
+    },
+    {
+        "abbr": "UEBA",
+        "long": "User and Entity Behavior Analytics"
+    },
+    {
+        "abbr": "UEFI",
+        "long": "Unified Extensible Firmware Interface"
+    },
+    {
+        "abbr": "UEM",
+        "long": "Unified Endpoint Management"
+    },
+    {
+        "abbr": "URL",
+        "long": "Uniform Resource Locator"
+    },
+    {
+        "abbr": "USB",
+        "long": "Universal Serial Bus"
+    },
+    {
+        "abbr": "UTM",
+        "long": "Unified Threat Management"
+    },
+    {
+        "abbr": "VDI",
+        "long": "Virtual Desktop Infrastructure"
+    },
+    {
+        "abbr": "VLAN",
+        "long": "Virtual Local Area Network"
+    },
+    {
+        "abbr": "VPC",
+        "long": "Virtual Private Cloud"
+    },
+    {
+        "abbr": "VPN",
+        "long": "Virtual Private Network"
+    },
+    {
+        "abbr": "WAF",
+        "long": "Web Application Firewall"
+    },
+    {
+        "abbr": "WAN",
+        "long": "Wide Area Network"
+    },
+    {
+        "abbr": "XML",
+        "long": "Extensible Markup Language"
+    },
+    {
+        "abbr": "XSS",
+        "long": "Cross-site Scripting"
+    },
+    {
+        "abbr": "ZAP",
+        "long": "Zed Attack Proxy"
+    }
+]
