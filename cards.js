@@ -36,6 +36,7 @@ async function init() {
         const term = long.toLowerCase().replace(",", "").replace("&", "");
         guess.classList.remove("wrong");
         if (typed == term) {
+            guess.value = long;
             correct();
         }
     });
