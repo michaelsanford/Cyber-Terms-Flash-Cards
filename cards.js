@@ -4,7 +4,7 @@ let terms;
 let abbr;
 let long;
 
-const guess = document.querySelector("input");
+const guess = document.querySelector("p");
 const abbreviation = document.querySelector("abbr");
 
 const rotate = () => {
@@ -12,7 +12,7 @@ const rotate = () => {
     
     guess.classList.remove("correct");
     guess.classList.remove("wrong");
-    guess.value = "";
+    guess.textContent = "";
     abbreviation.textContent = abbr;
 }
 
@@ -26,17 +26,19 @@ async function init() {
     abbreviation.addEventListener("click", e => {
         e.stopPropagation();
         guess.classList.add("wrong");
-        guess.value = long;
+        guess.textContent = long;
     })
 
     guess.addEventListener("click", e => e.stopPropagation());
 
     guess.addEventListener("input", e => {
-        const typed = e.target.value.toLowerCase().replace(",", "").replace("&", "");
+        console.dir(e)
+
+        const typed = e.target.textContent.toLowerCase().replace(",", "").replace("&", "");
         const term = long.toLowerCase().replace(",", "").replace("&", "");
         guess.classList.remove("wrong");
         if (typed == term) {
-            guess.value = long;
+            guess.textContent = long;
             correct();
         }
     });

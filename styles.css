@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 html {
-	    font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-display: swap;
 	box-sizing: border-box;
 	font-size: 12px;
@@ -23,27 +23,25 @@ p {
 	padding: 0;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 400px) {
 	html {
-		font-size: 14px;
+		font-size: 8vh;
+	}
+
+	p {
+		width: 100%;
+		height: 55vh;
 	}
 }
 
 @media (min-width: 768px) {
 	html {
-		font-size: 16px;
+		font-size: 10vh;
 	}
-}
 
-@media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
-}
-
-@media (min-width: 1200px) {
-	html {
-		font-size: 20px;
+	p {
+		width: 100%;
+		height: 50vh;
 	}
 }
 
@@ -70,29 +68,30 @@ abbr {
 	border: 1px dashed blue;
 	padding: 0 40px;
 
-	font-size: 15vh;
+	/* font-size: 15vh; */
 	color: var(--text);
 }
 
-input {
-	margin-top: 5vh;
-	width: 50vw;
+p {
+	margin: 5vh auto;
 	padding: 1vh;
-	text-align: center;
-	font-size: 5vh;
+	text-align-last: center;
 	color: var(--accent);
 	background-color: var(--background);
 	border: 1px dashed darkgoldenrod;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-input.correct { 
+p.correct {
 	background-color: green;
 }
 
-input.wrong { 
+p.wrong {
 	border: 4px solid red;
 }
 
-input:focus {
+p:focus {
 	outline-color: var(--accent);
-  }
+}
